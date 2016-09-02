@@ -42,3 +42,6 @@
   font-size: 30;
   font-family:sans-serif;
 }
+.mytext{
+  display:flex;
+}
