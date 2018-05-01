@@ -17,6 +17,7 @@
 .skill-img-zoom{
   min-height: 130px;
   max-height: 130px;
+  width: 100%;
 }
 
 .skill-img-zoom:hover {

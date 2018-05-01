@@ -215,6 +215,9 @@ fieldset[disabled] .btn-xl.active {
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 3px;
   }
+  button{
+      visibility: visible;
+    }
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
@@ -224,6 +227,9 @@ fieldset[disabled] .btn-xl.active {
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
   }
+  button{
+      visibility: visible;
+    }
 }
 header {
   /*background-image: url('../img/header-bg.jpg');*/
@@ -282,6 +288,9 @@ header .intro-text .intro-heading {
     color: #fec503;
     font-size: 1.5em;
   }
+  button{
+      visibility: visible;
+    }
 }
 section {
   padding: 100px 0;
@@ -303,6 +312,9 @@ section h3.section-subheading {
   section {
     padding: 150px 0;
   }
+  button{
+      visibility: visible;
+    }
 }
 .service-heading {
   margin: 15px 0;
@@ -372,6 +384,9 @@ section h3.section-subheading {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
+  button{
+      visibility: visible;
+    }
 }
 .timeline {
   list-style: none;
@@ -499,6 +514,9 @@ section h3.section-subheading {
     text-align: left;
     padding: 0 30px 20px 20px;
   }
+  button{
+      visibility: visible;
+    }
 }
 @media (min-width: 992px) {
   .timeline > li {
@@ -520,6 +538,9 @@ section h3.section-subheading {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
   }
+  button{
+      visibility: visible;
+    }
 }
 @media (min-width: 1200px) {
   .timeline > li {
@@ -539,6 +560,9 @@ section h3.section-subheading {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+  button{
+      visibility: visible;
+    }
 }
 .team-member {
   text-align: center;
@@ -774,4 +798,53 @@ body {
 width: 85px;
 height: 85px;
 
+}
+
+
+button{
+  display: none;
+  visibility: hidden;
+}
+@media only screen and (max-width: 568px){
+  .section-heading{
+    margin-left:100px;
+  }
+  button{
+    /* display: none; */
+    visibility: visible;
+  }
+  .skill-img-zoom{
+    width: 20px;
+    height: auto;
+  }
+}
+
+#skills {
+    text-align: center
+}
+
+#skills img {
+    max-width: 100%;
+    width: 150px;
+    height: auto;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    transition: transform .2s;
+}
+
+#skills a {
+    border-bottom: none;
+}
+
+#skills img:hover {
+    transform: scale(1.3);
+}
+
+#skills .skill-logos img {
+    max-width: 100%;
+    width: 100px;
+    height: auto;
+    padding: 2rem 0.5rem;
+    transition: transform .2s;
+    vertical-align: middle;
 }
