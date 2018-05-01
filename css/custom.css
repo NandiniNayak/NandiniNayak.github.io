@@ -235,7 +235,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: white;
+  color: black;
 }
 header .intro-text {
   padding-top: 100px;
@@ -567,6 +567,7 @@ section#contact {
 }
 section#contact .section-heading {
   color: white;
+  padding-bottom: 30px;
 }
 section#contact .form-group {
   margin-bottom: 25px;
@@ -750,4 +751,27 @@ body {
   font-style: "Georgia";
   line-height: 1.42857143;
   color: #fec503;
+  margin-left: 100px;
+}
+
+
+
+
+/* customised css */
+
+.navbar-custom {
+    /* background-color: transparent; */
+}
+#portfolio{
+  top: auto;
+}
+
+.main-text{
+  /* padding-left: 10%; */
+  text-align: center;
+}
+.img-header{
+width: 85px;
+height: 85px;
+
 }
